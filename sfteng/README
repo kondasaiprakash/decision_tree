@@ -1,0 +1,25 @@
+this is software enginerring course concept.
+where a user gives input in the form of matrix and this matrix is used to generate tree.
+you can modify it according to requriements
+The matrix input is of type give below:
+  1. columns are represented with headings
+  2. you can give whether it is 0 or 1 for each possible case
+ 
+example : 
+ here a electricity bill is categorized as domestic and non-domestic and sub-categories having their consumed units >300 and <300
+ based on that they should pay higher or lower is the condition:
+ 
+ 
+    domestic  non_domestic    >300    <300    offer     normal
+1.     1           0            1       0       0          1
+
+2.     1           0            0       1       1          0
+
+3.     0           1            1       0       0          1
+
+4.     0           1            0       1       1          0
+
+
+If you give this as input then it will generate a tree based on it
+
+feel free to modify it for your purposes
